@@ -1,0 +1,628 @@
+body{
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.change{
+    width: 100%;
+    margin: auto;
+    height: 400px;
+}
+
+#img{
+    width: 50%;
+    height:400px;
+}
+#one{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+#png{
+    height: 3.75rem;
+}
+
+/*.logo{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 5px;
+}*/
+
+/*nav{
+    width: 100%;
+    display: flex;
+    background-color:white;
+    justify-content: space-around;
+}
+
+.nav-links li{
+    display: inline-block;
+    list-style: none;
+    line-height: 70px;
+}
+
+nav a{
+    padding: 30px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: brown;
+}*/
+
+.bodycheck{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+}
+
+.enjoy h4{
+    font-weight: bold;
+}
+
+.enjoy input[type=search]{
+    height: 50px;
+    width: 70%;
+    padding-left: 5%;
+    outline: none;
+} 
+
+.enjoy input[type=email]{
+    height: 50px;
+    width: 70%;
+    padding-left: 5%;
+   outline: none;
+} 
+
+.enjoy button{
+    height: 50px;
+    width: 25%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    background-color:brown;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+.links{
+    height: 200px;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.links a:hover{
+    color: brown;
+}
+
+.now{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.now h2{
+    font-weight: bold;
+}
+
+.locate{
+    width: 100%;
+    text-align: center;
+    height: 50px;padding-top: 10px;
+    color: white;
+    background-color: brown;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.map-container{
+  overflow:hidden;
+  margin-bottom: 5px;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:300px;
+  width:100%;
+  position:absolute;
+}
+
+.brown{
+    width: 100%;
+    height: 10px;
+    background-color: brown;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-around;
+}
+
+.body1{
+    background-color: whitesmoke;
+    height: 400px;
+}
+
+.body1 p{
+    color: black;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.body1 h4{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+     padding-left: 10px;
+}
+
+.amount{
+    display: flex;
+    margin-top: 8%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.amount button{
+    width: 40%;
+    height: 45px;
+    cursor: pointer;
+    outline: none;
+    color: brown;
+    margin-right: 10px;
+    border: 3px dotted brown;
+    background-color: transparent;
+}
+
+.amount button:hover{
+    color: white;
+    background-color: brown;
+    border: none;
+}
+
+.price{
+    margin-left: 5px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#food{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+@media screen and (max-width: 767px) {
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.change{
+    width: 100%;
+    margin: auto;
+    height: 300px;
+}
+
+#img{
+    width: 100%;
+    height:300px;
+}
+#one{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.body1{
+    width: 100%;
+    height: 400px;
+    margin-top: 2px;
+    background-color: whitesmoke;
+}
+
+.bodycheck{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.enjoy h4{
+    font-size: 15px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+}
+
+.now{
+    width: 100%;
+    text-align: center;
+}
+
+.now h2{
+    font-size: 25px;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.enjoy input[type=search]{
+    height: 30px;
+    width: 70%;
+    outline: none;
+} 
+
+.enjoy input[type=email]{
+    height: 30px;
+    width: 70%;
+   outline: none;
+} 
+
+.enjoy button{
+    height: 30px;
+    width: 25%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    background-color:brown;
+}
+
+.locate h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.amount button{
+    width: 35%;
+    height: 45px;
+    cursor: pointer;
+    outline: none;
+    color: brown;
+    margin-right: 10px;
+    border: 3px dotted brown;
+    background-color: transparent;
+}
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.change{
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    background: red;
+}
+
+#img{
+    width: 100%;
+    height:300px;
+}
+#one{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#food{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+}
+.body1{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    margin-top: 2px;
+    background-color: whitesmoke;
+}
+
+.bodycheck{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.enjoy h4{
+    font-size: 15px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+}
+
+.now{
+    width: 100%;
+    text-align: center;
+}
+
+.now h2{
+    font-size: 25px;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.enjoy input[type=search]{
+    height: 30px;
+    width: 70%;
+    outline: none;
+} 
+
+.enjoy input[type=email]{
+    height: 30px;
+    width: 70%;
+   outline: none;
+} 
+
+.enjoy button{
+    height: 30px;
+    width: 25%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    background-color:brown;
+}
+.amount{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.amount button{
+    width: 25%;
+    height: 45px;
+    cursor: pointer;
+    outline: none;
+    color: brown;
+    margin-right: 10px;
+    border: 3px dotted brown;
+    background-color: transparent;
+}
+
+}
